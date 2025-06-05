@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+:root {
+  --blue-color: #205a8c;
+  --orange-color: #dd800c;
+  --semi-orange: #d98b48;
+  --light-color: #f2b988;
+  --black-color: #000;
+  --sidebar-color: #1d1d1d;
+  --white-color: #fff;
+  --white-tint-color: #f1f1f1;
+  --outlet-color: #e8edf2;
+  --rating-color:gold;
+}
+
+/* Headings */
+h1, h2, h3,h4,h5,h6,p {
+  font-family: 'Roboto Slab', serif !important;
+}
+
+/* UI Elements */
+body, buttons, forms, tables {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.paid{
+  background-color: green;
+    padding: 2px 8px;
+    border-radius: 50px;
+    color: var(--white-color);
+}
+
+.unpaid{
+  background-color: red;
+    padding: 2px 8px;
+    border-radius: 50px;
+    color: var(--white-color);
+}
+
+.refunded{
+  background-color: rgb(255, 149, 0);
+    padding: 2px 8px;
+    border-radius: 50px;
+    color: var(--white-color);
+}
+
+
